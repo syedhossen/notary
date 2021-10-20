@@ -1,0 +1,170 @@
+/*Common CSS Starts*/
+*{
+	margin: 0px;
+}
+
+
+body{
+	font-family: sans-serif;
+
+}
+/*Common CSS Ends*/
+
+/*Notary Header Starts */
+.nottary{
+	
+	padding: 8px 0px;
+}
+.notaryh1 {
+	text-align: center;
+}
+.notaryheader{
+
+}
+.notarywrapper{
+	width: 60%;
+	margin: 0px auto;
+    overflow: hidden;
+
+}
+.notarylogo{
+	float: left;
+	width: 18%;
+
+}
+.notarylogo img{
+	width: 100%;
+}
+.notarymenu{
+	float: right;
+	width: 81%;
+	margin-top: 5px;
+}.notarymenu ul{
+	float: right;
+}
+
+
+.notarymenu li{
+	list-style:none;
+	float: left;
+	}
+
+
+.notarymenu li a{
+	text-decoration:none;
+	padding: 5px 9px;
+	color: black;
+	display: inline-block;
+	font-size:14px;
+
+
+}
+.notarymenu li:first-child a{
+	color: #DD95A3;
+
+}
+.notarymenu li:last-child a{
+	padding-right: 0px;
+
+}
+.backimage{
+	background-image:linear-gradient(rgba(245, 246, 252, 0.52),rgba(117, 19, 93, 0.73)),url("images/banner.jpg");
+	height: 450px;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.banner{
+	width: 51%;
+	color: white;
+	padding: 90px 0px;
+	
+}
+.bannertext{
+	line-height: 26PX;
+    FONT-SIZE: 14PX;
+    margin-top: 13px;
+}
+.notbutton{
+	    background-color: #b52a41;
+    padding: 8px;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    margin: 20px 0px 0px 0px;
+}
+.banhead{
+	    font-size: 31px;
+	    padding-top: 6px;
+}
+.services{}
+.serviceheader{
+	text-align: center;
+
+}
+.serh1{
+	margin-top: 50px;
+}
+.serpa{
+	
+	color: #585252;
+    margin: 24px 127px;
+}
+.service1{
+	text-align: center;
+	margin: 56px 0px;
+    
+    overflow: hidden;
+}
+.servicedetails{
+     float: left;
+     width: 32%;
+}
+.detpara{
+    margin: 17px 0px;
+}
+.video{
+	background-color: #fdf5f7d9;
+	padding: 58px 0px;
+
+}
+.notarywrapper1{}
+.banner1{
+	overflow: hidden;
+}
+.vidbanner{
+	width: 42%;
+	float: left;
+}
+.banhead1{
+	font-size: 18px;
+    text-transform: uppercase;
+    line-height: 29px;
+    margin: 20px 20px 20px 0px;
+	
+}
+.bannertext1{
+	    color: #837b7b;
+}
+.notbutton1{
+    margin: 20px 0px;
+    color: white;
+    background-color: #B9203C;
+}
+.instruc{
+	width: 48%;
+	float: right;
+	margin: 6px 43px 6px 0px;
+
+}
+.feath2{
+	    font-size: 20px;
+}
+.boxshadow{
+	
+	box-shadow: inset 3px 3px 20px 2px #e3e0e0;
+    padding: 2px;
+}
+.boxshadow img{
+	padding: 19px;
+}
