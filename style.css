@@ -2,8 +2,6 @@
 *{
 	margin: 0px;
 }
-
-
 body{
 	font-family: sans-serif;
 
@@ -12,25 +10,21 @@ body{
 
 /*Notary Header Starts */
 .nottary{
-	
 	padding: 8px 0px;
 }
 .notaryh1 {
 	text-align: center;
 }
 .notaryheader{
-
 }
 .notarywrapper{
 	width: 60%;
 	margin: 0px auto;
     overflow: hidden;
-
 }
 .notarylogo{
 	float: left;
 	width: 18%;
-
 }
 .notarylogo img{
 	width: 100%;
@@ -42,51 +36,43 @@ body{
 }.notarymenu ul{
 	float: right;
 }
-
-
 .notarymenu li{
 	list-style:none;
 	float: left;
 	}
-
-
 .notarymenu li a{
 	text-decoration:none;
 	padding: 5px 9px;
 	color: black;
 	display: inline-block;
 	font-size:14px;
-
-
 }
-.notarymenu li:first-child a{
+.notarymenu ul li a:hover{
 	color: #DD95A3;
-
 }
 .notarymenu li:last-child a{
 	padding-right: 0px;
-
 }
+/*Notary Header Ends*/
+/*Notary Banner Starts*/
 .backimage{
 	background-image:linear-gradient(rgba(245, 246, 252, 0.52),rgba(117, 19, 93, 0.73)),url("images/banner.jpg");
 	height: 450px;
 	background-size: cover;
 	background-repeat: no-repeat;
-
 }
 .banner{
 	width: 51%;
 	color: white;
 	padding: 90px 0px;
-	
-}
+	}
 .bannertext{
 	line-height: 26PX;
     FONT-SIZE: 14PX;
     margin-top: 13px;
 }
 .notbutton{
-	    background-color: #b52a41;
+	background-color: #b52a41;
     padding: 8px;
     color: white;
     font-size: 11px;
@@ -97,16 +83,17 @@ body{
 	    font-size: 31px;
 	    padding-top: 6px;
 }
+
+/*Banner Section Ends*/
+/*Process Section Starts*/
 .services{}
 .serviceheader{
 	text-align: center;
-
 }
 .serh1{
 	margin-top: 50px;
 }
 .serpa{
-	
 	color: #585252;
     margin: 24px 127px;
 }
@@ -123,10 +110,11 @@ body{
 .detpara{
     margin: 17px 0px;
 }
+/*Process Section Ends*/
+/*Video Section Starts*/
 .video{
 	background-color: #fdf5f7d9;
 	padding: 58px 0px;
-
 }
 .notarywrapper1{}
 .banner1{
@@ -141,7 +129,6 @@ body{
     text-transform: uppercase;
     line-height: 29px;
     margin: 20px 20px 20px 0px;
-	
 }
 .bannertext1{
 	    color: #837b7b;
@@ -157,6 +144,8 @@ body{
 	margin: 6px 43px 6px 0px;
 
 }
+/*Video Section Ends*/
+/*Service Section Starts*/
 .feath2{
 	    font-size: 20px;
 }
@@ -168,3 +157,93 @@ body{
 .boxshadow img{
 	padding: 19px;
 }
+	/*Service Section Ends*/
+
+	.featbutt{
+    padding: 10px 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    display:block;
+    margin: 0 auto;
+    transition: 1s;
+    background-color: #b9203c;
+    border: none;
+	}
+	/*Disclaimer Starts*/
+	.disclaimer{
+        background-color: black;
+		color: #4D545E;
+		padding: 56px 0px;
+        margin-top: 47px;
+	}
+	.disclaimer h2{
+			color: #b9203c;
+			overflow: hidden;
+	}
+	.contactus{
+		width: 30%;
+		color: #4D545E;
+		float: left;
+	}
+	.contactus h2{
+	
+	}
+	.contactus p{
+		margin: 10px 0px;
+	}
+	.socicons{
+		    margin-top: 57px;
+	}
+	.usefullinks{
+		width: 25%;
+		float: left;
+		margin-left: 30px;
+	}
+	.usefullinks h2{
+		margin-left: 20px;
+	}
+	.usefullinks li{
+		margin: 10px 0px;
+	}
+	.usefullinks li a{
+		text-decoration: none;
+		color: #4D545E;
+
+	}
+	.ournewsletter{
+		width: 35%;
+		float: right;
+		overflow: hidden;
+
+	}
+	.ournewsletter p{
+		margin: 10px 0px;
+	}
+	.subbutton input{
+		background-color: black;
+		 height: 36px;
+	}
+	.subbutt{
+    height: 36px;
+    width: 101px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #b9203c;
+    border: none;
+	}
+/*disclaimer ends*/
+/*footer starts */
+footer{
+	background-color: #535D69;
+	color: #f1dfdf;
+}
+footer p{
+	text-align: center;
+	padding: 25px;
+    font-size: 14px;
+
+
+/*footer ends*/
